@@ -1,0 +1,7 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+images:
+- name: hanum20/flask-hello-world
+  newTag: "1"
+resources:
+- ../../base
